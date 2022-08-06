@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": ["dom"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "module": "commonjs",
+    "target": "es5",
+    "allowJs": true,
+    "rootDir":  "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "noUnusedParameters": false,
+    "paths": {
+      "@c/*": ["components"]
+    },
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "newLine": "lf"
+  },
+  "files": [
+    "./ts/index.ts"
+  ],
+  "include": [
+    "./ts/**/*.ts",
+    "./ts/**/*.vue"
+  ]
+}
