@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
+    <div>
+        <p>過去の災害</p>
+        {% for d in disasters %}
+            <a href="">{{ d.name }}</a>
+        {% endfor %}
+    </div>
+{% endblock %}
+
+{% block script %}
+{% endblock %}
